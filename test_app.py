@@ -4,7 +4,7 @@ import app
 class TestApp(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(app.add(4, 4), 8)
+        self.assertEqual(app.add(4, 4), 9)
 
     def test_subtract(self):
         self.assertEqual(app.subtract(10, 5), 5)
