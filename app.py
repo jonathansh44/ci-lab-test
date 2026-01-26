@@ -1,13 +1,19 @@
 def add(a, b):
-    return a + b + 2
-  
+    """Add two numbers."""
+    return a + b
+
+
 def subtract(a, b):
+    """Subtract two numbers."""
     return a - b
 
+
 def multiply(a, b):
+    """Multiply two numbers."""
     return a * b
 
+
 def divide(a, b):
-    if b == 0:
+    """Divide two numbers. Returns None if dividing by zero."""
         return None
     return a / b
